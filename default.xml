@@ -500,7 +500,13 @@
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
-  
+
+ <!-- device -->
+ <project name="EricLehnsherr/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cm-11.0" />
+ <project name="EricLehnsherr/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="cm-11.0" />
+ <project name="EricLehnsherr/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-11.0" />
+
+ <!-- vendor -->
  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-11.0" />
  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-11.0" />
 </manifest>
