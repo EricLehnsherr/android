@@ -297,7 +297,6 @@
   <project path="external/zlib" name="CyanogenMod/android_external_zlib" groups="pdk" />
   <project path="external/zxing" name="CyanogenMod/android_external_zxing" />
   <project path="frameworks/av" name="CyanogenMod/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="xmen-magneto/android_frameworks_base" revision="xphone"/>
   <project path="frameworks/compile/libbcc" name="CyanogenMod/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="CyanogenMod/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="CyanogenMod/android_frameworks_compile_slang" groups="pdk" />
@@ -392,7 +391,6 @@
   <project path="packages/apps/PackageInstaller" name="CyanogenMod/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PhoneCommon" name="CyanogenMod/android_packages_apps_PhoneCommon" />
   <project path="packages/apps/Provision" name="CyanogenMod/android_packages_apps_Provision" />
-  <project path="packages/apps/Settings" name="xmen-magneto/android_packages_apps_Settings" revision="xphone"/>
   <project path="packages/apps/SmartCardService" name="CyanogenMod/android_packages_apps_SmartCardService" />
   <project path="packages/apps/SoundRecorder" name="CyanogenMod/android_packages_apps_SoundRecorder" />
   <project path="packages/apps/SpeechRecorder" name="CyanogenMod/android_packages_apps_SpeechRecorder" />
@@ -496,16 +494,26 @@
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/studio/cloud" name="platform/tools/studio/cloud" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.4.4_r2" />
-  <project path="vendor/xrom" name="xmen-magneto/android_vendor_xrom" >
-    <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
-  </project>
+
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 
- <!-- device -->
+<!-- EricLehnsherr -->
  <project name="EricLehnsherr/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="github" revision="cm-11.0" />
  <project name="EricLehnsherr/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="cm-11.0" />
  <project name="EricLehnsherr/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-11.0" />
 
+<!-- xmen-magneto -->
+ <project name="xmen-magneto/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0" />
+ <project name="xmen-magneto/android_frameworks_base" path="frameworks/base" remote="github" revision="xphone"/>
+ <project name="xmen-magneto/android_frameworks_opt_connectivity" path="frameworks/opt/connectivity" remote="github" revision="cm-11.0" />
+ <project name="xmen-magneto/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="cm-11.0" />
+ <project name="xmen-magneto/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0" />
+ <project name="xmen-magneto/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cm-11.0" />
+ <project name="xmen-magneto/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="xphone"/>
+ <project path="vendor/xrom" name="xmen-magneto/android_vendor_xrom" >
+    <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
+  </project>
+  
  <!-- vendor -->
  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-11.0" />
  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-11.0" />
