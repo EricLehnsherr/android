@@ -510,7 +510,7 @@
  <project name="xmen-magneto/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0" />
  <project name="xmen-magneto/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cm-11.0" />
  <project name="xmen-magneto/android_packages_apps_Settings" path="packages/apps/Settings" remote="github" revision="xphone"/>
- <project path="vendor/xrom" name="xmen-magneto/android_vendor_xrom" >
+ <project path="vendor/xmod" name="xmen-magneto/android_vendor_xmod" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
   </project>
   
