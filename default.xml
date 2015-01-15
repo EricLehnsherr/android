@@ -515,7 +515,6 @@
   <!--<project name="x-mod/android_packages_apps_Settings" path="packages/apps/Settings" remote="bb" revision="xphone"/>
   <project path="vendor/xmod" name="x-mod/android_vendor_xmod" remote="bb" revision="cm-11.0" >-->
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
-  </project>
   
  <!-- vendor -->
  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-11.0" />
