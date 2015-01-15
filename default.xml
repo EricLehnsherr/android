@@ -512,9 +512,10 @@
  <project name="xmen-magneto/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="cm-11.0" />
  <project name="xmen-magneto/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0" />
  <project name="xmen-magneto/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cm-11.0" />
-  <!--<project name="x-mod/android_packages_apps_Settings" path="packages/apps/Settings" remote="bb" revision="xphone"/>
-  <project path="vendor/xmod" name="x-mod/android_vendor_xmod" remote="bb" revision="cm-11.0" >-->
+ <project name="x-mod/android_packages_apps_Settings" path="packages/apps/Settings" remote="bb" revision="xphone"/>
+ <project name="x-mod/android_vendor_xmod" path="vendor/xmod" remote="bb" revision="cm-11.0" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
+ </project>
   
  <!-- vendor -->
  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-11.0" />
