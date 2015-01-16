@@ -500,10 +500,8 @@
   <project path="vendor/cyngn" name="cyngn/android_vendor_cyngn" />
 
 <!-- EricLehnsherr -->
- <project name="x-mod/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="bb" revision="cm-11.0" />
- <project name="x-mod/android_packages_apps_xupdater" path="packages/apps/XUpdater" remote="bb" revision="master" />
+
  <project name="EricLehnsherr/android_device_oppo_msm8974-common" path="device/oppo/msm8974-common" remote="github" revision="cm-11.0" />
- <project name="EricLehnsherr/android_device_oppo_common" path="device/oppo/common" remote="github" revision="cm-11.0" />
 
 <!-- xmen-magneto -->
  <project name="xmen-magneto/android_device_qcom_common" path="device/qcom/common" remote="github" revision="cm-11.0" />
@@ -512,12 +510,17 @@
  <project name="xmen-magneto/android_hardware_qcom_display-caf-new" path="hardware/qcom/display-caf-new" remote="github" revision="cm-11.0" />
  <project name="xmen-magneto/android_hardware_qcom_media-caf-new" path="hardware/qcom/media-caf-new" remote="github" revision="cm-11.0" />
  <project name="xmen-magneto/android_kernel_oneplus_msm8974" path="kernel/oneplus/msm8974" remote="github" revision="cm-11.0" />
+
+<!-- X-Mod Private -->
+ <project name="x-mod/android_device_oneplus_bacon" path="device/oneplus/bacon" remote="bb" revision="cm-11.0" />
+ <project name="x-mod/android_packages_apps_xupdater" path="packages/apps/XUpdater" remote="bb" revision="master" />
+ <project name="x-mod/android_device_oppo_common" path="device/oppo/common" remote="bb" revision="cm-11.0" />
  <project name="x-mod/android_packages_apps_Settings" path="packages/apps/Settings" remote="bb" revision="xphone"/>
  <project name="x-mod/android_vendor_xmod" path="vendor/xmod" remote="bb" revision="cm-11.0" >
     <copyfile src="bootimage/Android.mk" dest="kernel/Android.mk" />
  </project>
-  
- <!-- vendor -->
+ 
+ <!-- Propietary Vendor -->
  <project name="TheMuppets/proprietary_vendor_oppo" path="vendor/oppo" remote="github" revision="cm-11.0" />
  <project name="TheMuppets/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="cm-11.0" />
 </manifest>
